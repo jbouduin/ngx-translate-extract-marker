@@ -1,0 +1,43 @@
+{
+  "name": "ngx-translate-extract-marker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Johan Bouduin",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbouduin/ngx-translate-extract-marker.git"
+  },
+  "keywords": [
+    "angular",
+    "ionic",
+    "ngx-translate",
+    "extract",
+    "extractor",
+    "translate",
+    "translation",
+    "i18n",
+    "gettext"
+  ],
+  "homepage": "https://github.com/jbouduin/ngx-translate-extract",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
