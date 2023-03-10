@@ -1,0 +1,2 @@
+# ngx-translate-extract-marker
+ 
